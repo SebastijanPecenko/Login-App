@@ -1,0 +1,8 @@
+# Ignore sensitive database secrets
+config.properties
+
+# Ignore NetBeans and Java build outputs
+/build/
+/dist/
+/nbproject/private/
+*.class

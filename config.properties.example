@@ -1,0 +1,4 @@
+# config.properties.example -> Using postgreSQL
+db.url=jdbc:postgresql://localhost:5432/your_database_name
+db.user=your_db_username
+db.password=your_db_password
