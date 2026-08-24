@@ -15,7 +15,7 @@ A Java Swing desktop application providing secure user registration and authenti
 ---
 
 ## Project Structure
-
+```text
 ├── src/
 │   ├── demo/
 │   │   ├── DatabaseConnection.java  # JDBC Connection manager loading properties
@@ -26,6 +26,7 @@ A Java Swing desktop application providing secure user registration and authenti
 ├── .gitignore                       # Excludes config.properties and build files
 ├── config.properties.example        # Configuration template for developers
 ── build.xml                        # Ant build script
+```
 
 ---
 
@@ -35,6 +36,7 @@ A Java Swing desktop application providing secure user registration and authenti
 * **Create a database (e.g., user_db).
 * **Run the following SQL script to create the users table:
 
+```text
 SQL
 CREATE TABLE users (
     id SERIAL PRIMARY KEY,
@@ -46,6 +48,7 @@ CREATE TABLE users (
     username VARCHAR(50) UNIQUE NOT NULL,
     password_hash VARCHAR(255) NOT NULL
 );
+```
 
 ---
 
@@ -68,10 +71,12 @@ git clone [https://github.com/SebastijanPecenko/Login-App.git](https://github.co
 * **Rename the duplicated file to config.properties.
 * **Update the file with your local database connection details:
 
+```text
 Properties
 db.url=jdbc:postgresql://localhost:5432/user_db
 db.user=postgres
 db.password=your_actual_postgres_password
+```
 
 ---
 
