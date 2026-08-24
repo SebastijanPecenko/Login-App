@@ -16,7 +16,6 @@ A Java Swing desktop application providing secure user registration and authenti
 
 ## Project Structure
 
-```text
 ├── src/
 │   ├── demo/
 │   │   ├── DatabaseConnection.java  # JDBC Connection manager loading properties
@@ -26,15 +25,15 @@ A Java Swing desktop application providing secure user registration and authenti
 │   └── pictures/                    # Assets and UI background images
 ├── .gitignore                       # Excludes config.properties and build files
 ├── config.properties.example        # Configuration template for developers
-└── build.xml                        # Ant build script
+── build.xml                        # Ant build script
 
 ---
 
-##Database Setup
+## Database Setup
 
-Open pgAdmin or your PostgreSQL command terminal.
-Create a database (e.g., user_db).
-Run the following SQL script to create the users table:
+* **Open pgAdmin or your PostgreSQL command terminal.
+* **Create a database (e.g., user_db).
+* **Run the following SQL script to create the users table:
 
 SQL
 CREATE TABLE users (
@@ -50,25 +49,24 @@ CREATE TABLE users (
 
 ---
 
-##Prerequisites & Dependencies
+## Prerequisites & Dependencies
 
-Java Development Kit (JDK): 8 or higher
-PostgreSQL JDBC Driver: postgresql-42.x.x.jar
-jBCrypt Library: jbcrypt-0.4.jar
-NetBeans IDE (Recommended for editing .form GUI files)
+* **Java Development Kit (JDK): 8 or higher
+* **PostgreSQL JDBC Driver: postgresql-42.x.x.jar
+* **jBCrypt Library: jbcrypt-0.4.jar
+* **NetBeans IDE (Recommended for editing .form GUI files)
 
 ---
 
-##How to Run & Configure
-Clone the repository:
+## How to Run & Configure
+* **Clone the repository:
 
 Bash
-git clone [https://github.com/SebastijanPecenko/YOUR_REPO_NAME.git](https://github.com/SebastijanPecenko/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
-Set up the Configuration File:
-Duplicate the config.properties.example file.
-Rename the duplicated file to config.properties.
-Update the file with your local database connection details:
+git clone [https://github.com/SebastijanPecenko/Login-App.git](https://github.com/SebastijanPecenko/Login-App.git)
+* **Set up the Configuration File:
+* **Duplicate the config.properties.example file.
+* **Rename the duplicated file to config.properties.
+* **Update the file with your local database connection details:
 
 Properties
 db.url=jdbc:postgresql://localhost:5432/user_db
@@ -77,9 +75,9 @@ db.password=your_actual_postgres_password
 
 ---
 
-##Build and Run:
+## Build and Run:
 
-Open the project in NetBeans IDE.
-Add the required .jar libraries (PostgreSQL JDBC and jBCrypt) to the project's Libraries folder.
-Clean and Build the project (Shift + F11).
-Run Login_page.java.
+* **Open the project in NetBeans IDE.
+* **Add the required .jar libraries (PostgreSQL JDBC and jBCrypt) to the project's Libraries folder.
+* **Clean and Build the project (Shift + F11).
+* **Run Login_page.java.
