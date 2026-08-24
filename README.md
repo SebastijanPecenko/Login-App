@@ -64,8 +64,10 @@ CREATE TABLE users (
 ## How to Run & Configure
 * **Clone the repository:
 
-Bash
-git clone [https://github.com/SebastijanPecenko/Login-App.git](https://github.com/SebastijanPecenko/Login-App.git)
+```bash
+   git clone [https://github.com/SebastijanPecenko/Login-App.git](https://github.com/SebastijanPecenko/Login-App.git)
+   cd Login-App
+```
 * **Set up the Configuration File:
 * **Duplicate the config.properties.example file.
 * **Rename the duplicated file to config.properties.
