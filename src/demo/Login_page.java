@@ -121,10 +121,6 @@ public class Login_page extends javax.swing.JFrame {
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
-        JOptionPane.showMessageDialog(rootPane, "Too Bad :D");
-    }//GEN-LAST:event_jLabel6MouseClicked
-
     private void jLabel4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel4MouseClicked
         dispose();
         new Registration_page().setVisible(true);
@@ -143,6 +139,10 @@ public class Login_page extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(this, "Invalid credentials.", "Error", JOptionPane.ERROR_MESSAGE);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jLabel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel6MouseClicked
+        JOptionPane.showMessageDialog(rootPane, "Too Bad :D");
+    }//GEN-LAST:event_jLabel6MouseClicked
 
     /**
      * @param args the command line arguments
